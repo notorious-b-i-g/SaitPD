@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Виртуальные системы{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <script defer src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="{% url 'home' %}">Главная</a></li>
+      <li><a href="{% url 'about' %}">О проекте</a></li>
+      <li><a href="{% url 'participants' %}">Участники</a></li>
+      <li><a href="{% url 'journal' %}">Журнал</a></li>
+      <li><a href="{% url 'resources' %}">Ресурсы</a></li>
+    </ul>
+  </nav>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer>&copy; {{ now|date:"Y" }} Команда VS-Edu</footer>
+</body>
+</html>

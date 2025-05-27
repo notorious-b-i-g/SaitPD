@@ -1,0 +1,14 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Verdana,Arial,sans-serif;background:#f8f9fa;color:#222;line-height:1.6}
+header{background:#004080;color:#fff;padding:15px 0;margin-bottom:40px}
+nav ul{list-style:none;display:flex;justify-content:center;gap:20px}
+nav a{color:#fff;text-decoration:none;font-weight:bold}
+nav a:hover{text-decoration:underline}
+.container{width:90%;max-width:1000px;margin:auto}
+.hero{background:url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1350&q=80') center/cover;
+      height:250px;display:flex;align-items:center;justify-content:center;color:#fff;margin-bottom:40px;border-radius:12px}
+.hero h1{font-size:2.5rem;text-shadow:0 2px 4px rgba(0,0,0,.5)}
+.card{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.1);margin-bottom:20px}
+.card img{width:100%;border-radius:8px;margin-bottom:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+footer{background:#004080;color:#fff;text-align:center;padding:20px 0;margin-top:40px}
