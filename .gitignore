@@ -1,0 +1,17 @@
+# Секреты
+.env
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
